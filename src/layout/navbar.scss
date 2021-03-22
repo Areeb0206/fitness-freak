@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+*{
+
+	margin: 0;
+	padding: 0;
+}
+body{
+
+}
+*{
+	margin: 0;
+	padding: 0;
+
+}
+body{
+
+}
+li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+
+
+.right-nav ul{
+	display: flex;flex-direction: row;grid-gap: 0px;
+}
+
+.navbar{
+padding: 0px;	display: flex;justify-content: space-around;background: black;
+
+}
+.left-nav{padding: 0px;width: 100%;	
+}
+
+.left-side{
+
+position: relative;
+width: 80%;padding: 10px;
+
+	
+margin: auto;
+}
+
+.icon{
+}
+
+.left-nav .logo{
+	background-image: url(../images/f-logo2.svg); 
+	height:90px;width:90px;
+background-size: contain;
+    background-repeat: no-repeat;
+
+}
+/*.freak{text-transform: uppercase;
+	font-size:1.4em;position: absolute;top: 45%;transform: translateY(-50%);left: 5%;
+
+letter-spacing:4px;
+	background-image: url(../images/image1.jpg);
+	background-size: contain; 
+background-repeat: repeat; 
+            -webkit-background-clip: text; 
+            -webkit-text-fill-color: transparent; 
+         
+         
+          
+  
+            -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: white;
+}
+.freak::after{
+	content: 'reak';text-transform: lowercase;letter-spacing: 4px;
+	position: absolute;left: 0;top: 50%;font-size: 2.5rem;
+		background-image: url(../images/image1.jpg);
+	background-size: contain; 
+background-repeat: repeat; font-family: 'Rubik Mono One', sans-serif;
+            -webkit-background-clip: text; 
+            -webkit-text-fill-color: transparent; 
+         
+         
+          
+  
+            -webkit-font-smoothing: antialiased;
+}
+
+*/
+
+
+.right-nav{padding: 10px;margin-right: 30px;
+}
+.right-nav ul{
+display: flex;flex-direction: row;grid-gap: 90px;
+}
+.right-nav ul li p{
+	color:white;font-size:1.4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 425px)
+{
+
+
+
+
+.navbar{
+padding: 10px;	display: grid;grid-template-columns: 60% 20%;
+
+}
+.left-nav{padding: 0px;width: 100%;	
+}
+
+.left-side{
+
+position: relative;
+width: 100%;padding: 0px;
+
+
+}
+
+.icon{background: white;border-radius: 5px;
+}
+.menu{
+border-radius: 2px;
+	width: 20px;height: 20px;
+
+
+}
+
+.left-nav .logo{
+	background-image: url(../images/f-logo2.svg); 
+	height:80px;
+background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.right-nav{padding: 00px;margin-right: 00px;margin-top: 40px;
+}
+.right-nav ul{
+display: flex;flex-direction: column;grid-gap: 0px;text-align: left;padding: 0px;
+}
+.right-nav ul li p{
+	color:white;font-size:1.4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
