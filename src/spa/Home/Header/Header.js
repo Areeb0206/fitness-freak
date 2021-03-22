@@ -11,14 +11,14 @@ render()
 {
  
 	return(
-
+ <div className="header-main">
    <div className="header">
 
         <div className="in-header">
 
            <div className="header-text">
 
-              <p>Fitness</p>
+              <p>Freak</p>
            </div>
 
 
@@ -26,6 +26,7 @@ render()
 
 
 
+   </div>
    </div>
 
 	);
