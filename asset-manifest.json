@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/fitness-freak/static/css/main.ffb8e160.chunk.css",
+    "main.css": "/fitness-freak/static/css/main.3c1a1f36.chunk.css",
     "main.js": "/fitness-freak/static/js/main.7bcbe076.chunk.js",
     "main.js.map": "/fitness-freak/static/js/main.7bcbe076.chunk.js.map",
     "runtime-main.js": "/fitness-freak/static/js/runtime-main.cd109a80.js",
@@ -12,16 +12,15 @@
     "static/js/3.3468a9d4.chunk.js.map": "/fitness-freak/static/js/3.3468a9d4.chunk.js.map",
     "index.html": "/fitness-freak/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/fitness-freak/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.ffb8e160.chunk.css.map": "/fitness-freak/static/css/main.ffb8e160.chunk.css.map",
+    "static/css/main.3c1a1f36.chunk.css.map": "/fitness-freak/static/css/main.3c1a1f36.chunk.css.map",
     "static/js/2.87f2bb2d.chunk.js.LICENSE.txt": "/fitness-freak/static/js/2.87f2bb2d.chunk.js.LICENSE.txt",
-    "static/media/navbar.scss": "/fitness-freak/static/media/f-logo2.f548d415.svg",
     "static/media/Header.scss": "/fitness-freak/static/media/image2.4a3b96e5.png"
   },
   "entrypoints": [
     "static/js/runtime-main.cd109a80.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.87f2bb2d.chunk.js",
-    "static/css/main.ffb8e160.chunk.css",
+    "static/css/main.3c1a1f36.chunk.css",
     "static/js/main.7bcbe076.chunk.js"
   ]
 }
