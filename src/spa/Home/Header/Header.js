@@ -12,7 +12,21 @@ render()
  
 	return(
 
-   <div>a</div>
+   <div className="header">
+
+        <div className="in-header">
+
+           <div className="header-text">
+
+              <p>Fitness</p>
+           </div>
+
+
+        </div>
+
+
+
+   </div>
 
 	);
 }
