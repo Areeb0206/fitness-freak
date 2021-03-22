@@ -1,5 +1,5 @@
 
-import './App.css';
+import './App.scss';
 import { Nav } from './layout';
 
 import {Home ,Appointment,Contact} from './spa';
