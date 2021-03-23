@@ -48,19 +48,21 @@ return(<div className="sec2">
 
                    </div>
 
+                  
 
-  <div className="section2-image">
-             <div className="sec2-image"></div>
+                   <div className="sec2-image">
+
+                     <div className="image1"></div>
+
+
+                   </div>
+
+
+</div>
+
+
           </div>
-               </div>
 
-
-
-
-
-
-          </div>
-          
         
 
           </div>
