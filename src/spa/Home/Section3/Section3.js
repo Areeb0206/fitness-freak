@@ -7,6 +7,9 @@ export default class Section3 extends Component{
 render()
 {
 return(<div className="section3">
+
+
+      <div className="in-sec3"></div>
           
       
 
