@@ -5,6 +5,8 @@ import Header from './Home/Header/Header';
 
 import Section2 from './Home/Section2/Section2';
 
+import Section3 from './Home/Section3/Section3';
+
 
 
 
@@ -19,6 +21,8 @@ render()
        
        <Header />
        <Section2 />
+
+       <Section3 />
 		   
 		
     

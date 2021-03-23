@@ -108,6 +108,27 @@
  
  }
 
+.section2-image{
+	width: 70%;
+	margin: auto;
+}
+
+.sec2{
+    width: 100%;
+    height: 230vh;
+    position:relative;
+}
+
+.sec2-image{
+    background-image:url(../../../images/exercise.png);
+    transform:rotateX(20deg) rotateY(-10deg) rotateZ(-5deg);
+    width: 700px;height: 500px;background-repeat:no-repeat;
+
+    object-fit:  contain;
+
+
+    position: absolute;bottom: -80px;
+}
 
 
 
@@ -129,13 +150,13 @@
 
     & .in-sec2{
 	width: 100%;
-	height: auto;position: absolute;top: -70px;display: flex;flex-direction: column;grid-gap: 40px;
+	height: auto;position: absolute;top: -100px;display: flex;flex-direction: column;grid-gap: 40px;
 
 
 		  & .box1{
 			width: 100%;display: flex;flex-direction: column;grid-gap: 20px;font-family: 'poppins';
 
-	padding: 30px 20px;
+	padding: 20px 20px;
 			background: rgb(34,28,28);
 		background: linear-gradient(90deg, rgba(34,28,28,1) 4%, rgba(36,33,33,1) 100%);
 		padding-bottom: 20px;
@@ -220,7 +241,7 @@
 		   }
 
            & .box3-txt2{
-           	font-size: 10px;
+           	font-size: 9px;
            }
 
   
@@ -230,6 +251,29 @@
   }
  
  }
+
+
+
+.section2-image{
+	width: 100%;
+	margin: auto;}
+
+.sec2{
+    width: 100%;
+    height: 170vh;
+    position:relative;
+}
+
+.sec2-image{
+    background-image:url(../../../images/exercise.png);
+    transform:rotateX(20deg) rotateY(-10deg) rotateZ(-10deg);
+    width: 290px;height: 300px;background-repeat:no-repeat;
+
+  background-size: contain;
+
+
+    position: absolute;bottom: -80px;
+}
 
 
 

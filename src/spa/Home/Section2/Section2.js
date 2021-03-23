@@ -6,7 +6,7 @@ export default class Section2 extends Component{
 
 render()
 {
-return(
+return(<div className="sec2">
           
           <div className="section2">
 
@@ -56,6 +56,12 @@ return(
 
 
 
+
+          </div>
+          
+          <div className="section2-image">
+             <div className="sec2-image"></div>
+          </div>
 
           </div>
 
