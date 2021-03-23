@@ -2,80 +2,81 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
-.header-main{width: 100%;
-	height: auto;
+.header-main{width: 100%;position:relative;
+	height: auto;clip-path: polygon(100% 0, 100% 87%, 100% 87%, 0 100%, 0 0);
 
 }
+
 
 .header{
-	width: 100%;
+    width: 100%;position:relative;
 
-}
-.in-header{
-}
 
-.header{
 
     & .in-header{position: relative;  
-    	  	height:80.5vh;
+    	  	height:110vh;
     	width: 100%;background-position: right;
     	min-height: 500;background-color: black;
     	background-image:linear-gradient(90deg, rgba(0,0,0,0.5633850952490371) 0%, rgba(2,2,2,0.5353738907672444) 100%), url(../../../images/image2.png);
         
     	background-size: contain;    	background-repeat: no-repeat;
-    }
+
+     
     
-    & .header-text{position: absolute;top: 50%;
-    	left: 50%;
-    	transform: translate(-50%,-50%);color: white;
-    	font-size: 60px;
-    	
-    	margin: auto;text-transform: uppercase;letter-spacing: 8px;
-    	background-image: url(../../../images/f-logo2.svg);
-	background-size: contain; 
-background-repeat: repeat; 
-            -webkit-background-clip: text; 
-            -webkit-text-fill-color: transparent; 
-         
+
+            & .header-text{position: absolute;top: 40%;
+            	left: 50%;
+            	transform: translate(-50%,-50%);color: white;
+            	font-size: 90px;
+            	
+            	margin: auto;text-transform: uppercase;letter-spacing: 8px;
+            	background-image: url(../../../images/f-logo2.svg);
+            	background-size: contain; 
+                background-repeat: repeat; 
+                -webkit-background-clip: text; 
+                -webkit-text-fill-color: transparent; 
+                 
          
           
-  
-            -webkit-font-smoothing: antialiased;
-    -webkit-text-stroke-width: 1px;
-            -webkit-text-stroke-color: white;font-family: 'Rubik Mono One', sans-serif;
+      
+                -webkit-font-smoothing: antialiased;
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: white;font-family: 'Rubik Mono One', sans-serif;
 
-    }
-        & .header-text::after{
-        	content: 'crossfit . working harder';display: block;
-font-size: 10px;font-family: 'Poppins', sans-serif;
-background-image: none;letter-spacing: 6px;text-align: center;
-        
-    	
-    	
-    
+            }
 
-    }
+                & .header-text::after{
+              
+                    	content: 'crossfit . working harder';display: block;
+                        font-size: 10px;font-family: 'Poppins', sans-serif;
+                        background-image: none;letter-spacing: 6px;text-align: center;transform: scale(1);
+                        
+                    	
+                    	
+                    
 
- & .header-text::before{
-        	content: 'Fitness';display: block;
-font-size: 39px;
-        	
-    	margin: auto;text-transform: uppercase;letter-spacing: 10px;transform: scale(1,1.4);
-    	background-image: url(../../../images/f-logo2.svg);
-	background-size: cover;background-position: left; 
-background-repeat: repeat; 
-            -webkit-background-clip: text; 
-            -webkit-text-fill-color: transparent; 
-         
-         
-          
-  
-            -webkit-font-smoothing: antialiased;
-    -webkit-text-stroke-width: 1px;
-            -webkit-text-stroke-color: white;font-family: 'Rubik Mono One', sans-serif;
-    	
-    	
-    
+                   }
+
+                 & .header-text::before{
+                        	content: 'Fitness';display: block;
+                            font-size: 65px;
+                        	
+                        	margin: auto;text-transform: uppercase;letter-spacing: 7px;transform: scale(0.99,1.4);
+                        	background-image: url(../../../images/f-logo2.svg);
+                        	background-size: cover;background-position: left; 
+                            background-repeat: repeat; 
+                            -webkit-background-clip: text; 
+                            -webkit-text-fill-color: transparent; 
+                         
+                         
+                          
+                  
+                            -webkit-font-smoothing: antialiased;
+                           -webkit-text-stroke-width: 1px;
+                            -webkit-text-stroke-color: white;font-family: 'Rubik Mono One', sans-serif;
+                    	
+                    	}
+                    
 
     }
 
@@ -84,6 +85,11 @@ background-repeat: repeat;
 
 @media(max-width: 425px){
 
+
+
+.header-main{
+    clip-path: polygon(0 0, 100% 0, 100% 87%, 0 100%);
+}
 .header{
 	width: 100%;background:black;
 
@@ -99,7 +105,7 @@ background-position: center;
     	background-size: cover;
     	background-repeat: no-repeat;
 
-    }
+  
      
     & .header-text{position: absolute;top: 35%;
     	left: 40%;
@@ -124,7 +130,7 @@ background-repeat: repeat;
         & .header-text::after{
         	content: 'crossfit. Working harder';display: block;
 text-align:center;font-family: none;font-weight: 100px;
-font-size: 8px;font-family: 'Poppins', sans-serif;letter-spacing: 3px;
+font-size:8px;font-family: 'Poppins', sans-serif;letter-spacing: 3px;
         
     	
     	
@@ -147,7 +153,7 @@ text-align: center;
     -webkit-text-stroke-width: 0.5px;
             -webkit-text-stroke-color: white;font-family: 'Rubik Mono One', sans-serif;
    }
-
+}
 
 
   }

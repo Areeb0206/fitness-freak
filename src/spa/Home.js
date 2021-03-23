@@ -3,6 +3,8 @@ import React, {Component} from 'react';
 import { Layout } from '../layout';
 import Header from './Home/Header/Header';
 
+import Section2 from './Home/Section2/Section2';
+
 
 
 
@@ -16,6 +18,7 @@ render()
      <Layout>
        
        <Header />
+       <Section2 />
 		   
 		
     
