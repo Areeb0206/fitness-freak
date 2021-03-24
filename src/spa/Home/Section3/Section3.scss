@@ -1,17 +1,207 @@
+.sec3{
+	width: 100%;height: auto;position: relative;top: -150px;margin-bottom: -170px;
+}
+
+
 .section3{
 width: 100%;
 height:auto;
+clip-path: polygon(0 13%, 100% 0, 100% 100%, 0% 100%);background-color:black;
 
 
 
 
-& .in-sec3{height: 40vh;
+			& .in-sec3{height: auto;
 
-background-color: black;position: relative;top: -100px;margin-bottom: -100px;
+		
 
-clip-path: polygon(0 53%, 100% 0, 100% 100%, 0% 100%);
+			
+			display: grid;grid-template-columns: 50% 50%;
 
-}
+                    
+               & .left{
+               	width: 100%;color: white;
+                position:relative;
+
+                   & .left-in{
+                   	position:absolute;top: 50%;
+                   	left: 50%;
+                   	transform: translate(-50%,-50%);display: flex;flex-direction: column;grid-gap:15px;
+
+                   	  & h1{
+                   	  	font-size: 13px;letter-spacing: 2px;font-size: 100;color: #fcaa22;text-align: right;
+                   	  }
+
+                   	  & h2{
+                   	  	font-size: 30px;letter-spacing: 3px;font-weight: 500;text-align: right;text-transform: uppercase;line-height: 40px;
+                   	  }
+                   	  & h3{
+                   	  	font-size: 14px;letter-spacing: 1px;line-height: 30px;font-weight: 100;text-align: right;
+                   	  }
+                   	  & button{
+                   	  	width: 100%;color: white;
+                   	  	background-color:transparent;outline: none;border: none;border:1px solid #fcaa22;padding: 10px;letter-spacing: 2px;
+                   	  }
+
+
+                   }
+
+               }
+
+
+
+
+
+
+
+
+
+               & .right{color: white;margin-top: 80px;
+               	width: 100%;height: auto;
+             padding: 80px;display: flex;flex-direction: column;grid-gap:40px;
+                      
+                      & .right-one{display: flex;flex-direction: row;grid-gap: 30px;
+
+		                      & .right-one-left{
+		                      	background-image: url(../../../images/body.svg);
+		                      	width:130px;
+		                      	height: 100px;background-size: contain;background-repeat: no-repeat;background-position: center;
+		                      }
+
+		                      & .right-one-right{
+
+			                      	 & h2{
+			                      		font-size: 20px;letter-spacing: 2px;
+			                      	}
+
+			                      	 & h3{
+			                      		font-size: 11px;font-family: 'poppins';letter-spacing: 1px;word-spacing: 2px;
+			                      	
+	                                    line-height:25px;width:60%;
+			                      	}
+		                      }
+
+                    }
+
+
+
+                     & .right-two{display: flex;flex-direction: row;grid-gap: 30px;
+
+		                      & .right-two-left{
+		                      	background-image: url(../../../images/exercise.svg);
+		                      	width:130px;
+		                      	height: 100px;background-size: contain;background-repeat: no-repeat;background-position: center;
+		                      }
+
+		                      & .right-two-right{
+
+		                   
+			                      	 & h2{
+			                      		font-size: 20px;letter-spacing: 2px;
+			                      	}
+
+			                      	 & h3{
+			                      		font-size: 11px;font-family: 'poppins';letter-spacing: 1px;word-spacing: 2px;
+			                      	
+	                                    line-height:25px;width:60%;
+			                      	}
+
+
+		                      }
+
+
+		                 }
+
+
+		                  & .right-three{display: flex;flex-direction: row;grid-gap: 30px;
+
+		                      & .right-three-left{
+		                      	background-image: url(../../../images/lift.svg);
+		                      	width:130px;
+		                      	height: 100px;background-size: contain;background-repeat: no-repeat;background-position: center;
+		                      }
+
+		                      & .right-three-right{
+
+			                    
+			                      	 & h2{
+			                      		font-size: 20px;letter-spacing: 2px;
+			                      	}
+
+			                      	 & h3{
+			                      		font-size: 11px;font-family: 'poppins';letter-spacing: 1px;word-spacing: 2px;
+			                      	
+	                                    line-height:25px;width:60%;
+			                      	}
+
+
+		                      }
+
+                         }
+
+     
+
+                     & .right-four{display: flex;flex-direction: row;grid-gap: 30px;
+
+		                      & .right-four-left{
+		                      	background-image: url(../../../images/yoga.svg);
+		                      	width:130px;
+		                      	height: 100px;background-size: contain;background-repeat: no-repeat;background-position: center;
+		                      }
+
+		                      & .right-four-right{
+
+			                  
+			                      	 & h2{
+			                      		font-size: 20px;letter-spacing: 2px;
+			                      	}
+
+			                      	 & h3{
+			                      		font-size: 11px;font-family: 'poppins';letter-spacing: 1px;word-spacing: 2px;
+			                      	
+	                                    line-height:25px;width:60%;
+			                      	}
+
+
+		                      }
+
+                         }
+
+
+
+
+             	   & .right-five{display: flex;flex-direction: row;grid-gap: 30px;
+
+		                      & .right-five-left{
+		                      	background-image: url(../../../images/workout.svg);
+		                      	width:130px;
+		                      	height: 100px;background-size: contain;background-repeat: no-repeat;background-position: center;
+		                      }
+
+		                      & .right-five-right{
+
+			                
+			                      	 & h2{
+			                      		font-size: 20px;letter-spacing: 2px;
+			                      	}
+
+			                      	 & h3{
+			                      		font-size: 11px;font-family: 'poppins';letter-spacing: 1px;word-spacing: 2px;
+			                      	
+	                                    line-height:25px;width:60%;
+			                      	}
+		                      }
+
+                         }
+
+
+
+
+               }
+             
+
+
+			}
 
 
 }
@@ -24,23 +214,215 @@ clip-path: polygon(0 53%, 100% 0, 100% 100%, 0% 100%);
 
 
 @media(max-width: 425px){
+
+
+
+	.sec3{
+	width: 100%;height: auto;position: relative;top: -30px;margin-bottom: -30px;
+}
+
+
 .section3{
 width: 100%;
 height:auto;
+ clip-path: polygon(1% 4%, 100% 0, 100% 100%, 0 100%);background-color:black;
 
 
 
 
-& .in-sec3{height: 10vh;
+			& .in-sec3{height: auto;
 
-background-color: black;position: relative;top: 0px;margin-bottom: 00px;
+		
 
-clip-path: polygon(0 23%, 100% 0, 100% 100%, 0% 100%);
+			
+			display: flex;flex-direction: column;grid-gap:0px;
+
+                    
+               & .left{
+               	width: 90%;color: white;margin: auto;
+                position:relative;
+
+                   & .left-in{width: 100%;
+                   	position:relative;
+                 display: flex;flex-direction: column;grid-gap:0px;margin-top: 250px;
+
+                   	  & h1{
+                   	  	font-size: 13px;letter-spacing: 2px;font-size: 100;color: #fcaa22;text-align: left;
+                   	  }
+
+                   	  & h2{
+                   	  	font-size: 20px;letter-spacing: 3px;font-weight: 500;text-align:left;text-transform: uppercase;line-height: 40px;transform: scaleY(1.2);
+                   	  }
+                   	  & h3{
+                   	  	font-size: 12px;letter-spacing: 1px;line-height: 30px;font-weight: 100;text-align:left;
+                   	  }
+                   	  & button{
+                   	  	width: 150px;color: white;font-size: 13px;
+                   	  	background-color:transparent;outline: none;border: none;border:1px solid #fcaa22;padding: 8px;letter-spacing: 2px;
+                   	  };
+
+
+                   }
+
+               }
+
+
+
+
+
+
+
+
+
+               & .right{color: white;
+               	width: 90%;height: auto;margin: auto;margin-top: 0;
+             padding: 0px;display: flex;flex-direction: column;grid-gap:20px;
+                      
+                      & .right-one{display: flex;flex-direction: row;grid-gap: 30px;
+
+		                      & .right-one-left{
+		                      	background-image: url(../../../images/body.svg);
+		                      	width:130px;
+		                      	height: 100px;background-size: contain;background-repeat: no-repeat;background-position: center;
+		                      }
+
+		                      & .right-one-right{
+
+			                      	 & h2{
+			                      		font-size: 13px;letter-spacing: 2px;
+			                      	}
+
+			                      	 & h3{
+			                      		font-size: 9px;font-family: 'poppins';letter-spacing: 1px;word-spacing: 2px;
+			                      	
+	                                    line-height:25px;width: 100%;
+			                      	}
+		                      }
+
+                    }
+
+
+
+                     & .right-two{display: flex;flex-direction: row;grid-gap: 30px;
+
+		                      & .right-two-left{
+		                      	background-image: url(../../../images/exercise.svg);
+		                      	width:130px;
+		                      	height: 100px;background-size: contain;background-repeat: no-repeat;background-position: center;
+		                      }
+
+		                      & .right-two-right{
+
+		                      	& h2{
+		                      		font-size: 13px;letter-spacing: 2px;
+		                      	}
+		                      	& h3{
+		                      		font-size: 9px;font-family: 'poppins';letter-spacing: 1px;word-spacing: 2px;
+		                      	
+                                    line-height:25px;width:100%;
+		                      	}
+
+
+		                      }
+
+
+		                 }
+
+
+		                  & .right-three{display: flex;flex-direction: row;grid-gap: 30px;
+
+		                      & .right-three-left{
+		                      	background-image: url(../../../images/lift.svg);
+		                      	width:130px;
+		                      	height: 100px;background-size: contain;background-repeat: no-repeat;background-position: center;
+		                      }
+
+		                      & .right-three-right{
+
+			                      &	h2{
+			                      		font-size: 13px;letter-spacing: 2px;
+			                      	  }
+
+			                      &	h3{
+			                      		font-size: 9px;font-family: 'poppins';letter-spacing: 1px;word-spacing: 2px;
+			                      	
+	                                    line-height:25px;width:100%;
+		                      	}
+
+
+		                      }
+
+                         }
+
+     
+
+                     & .right-four{display: flex;flex-direction: row;grid-gap: 30px;
+
+		                      & .right-four-left{
+		                      	background-image: url(../../../images/yoga.svg);
+		                      	width:130px;
+		                      	height: 100px;background-size: contain;background-repeat: no-repeat;background-position: center;
+		                      }
+
+		                      & .right-four-right{
+
+			                      &	h2{
+			                      		font-size: 13px;letter-spacing: 2px;
+			                      	  }
+
+			                      &	h3{
+			                      		font-size: 9px;font-family: 'poppins';letter-spacing: 1px;word-spacing: 2px;
+			                      	
+	                                    line-height:25px;width:100%;
+		                      	}
+
+
+		                      }
+
+                         }
+
+
+
+
+             	   & .right-five{display: flex;flex-direction: row;grid-gap: 30px;
+
+		                      & .right-five-left{
+		                      	background-image: url(../../../images/workout.svg);
+		                      	width:130px;
+		                      	height: 100px;background-size: contain;background-repeat: no-repeat;background-position: center;
+		                      }
+
+		                      & .right-five-right{
+
+			                      &	h2{
+			                      		font-size: 13px;letter-spacing: 2px;
+			                      	  }
+
+			                      &	h3{
+			                      		font-size: 9px;font-family: 'poppins';letter-spacing: 1px;word-spacing: 2px;
+			                      	
+	                                    line-height:25px;width:100%;
+		                      	}
+
+
+		                      }
+
+                         }
+
+
+
+
+               }
+             
+
+
+			}
+
 
 }
 
 
-}
+
 
 
 

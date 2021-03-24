@@ -2,6 +2,8 @@
     width: 100%;
     height:auto;
     position:relative;
+top: -100px;
+    margin-bottom:-30px;
 }
 
 
@@ -15,7 +17,7 @@
 
     & .in-sec2{
 	width: 100%;
-	height: auto;position: relative;top: -100px;display: flex;flex-direction: column;grid-gap: 40px;
+	height: auto;display: flex;flex-direction: column;grid-gap: 40px;
 
 
 		  & .box1{
@@ -138,8 +140,24 @@
 
 
 
- @media(max-width: 425px){
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media(max-width: 425px){
+.sec2{position:relative;
+top: -100px;margin-bottom: -100px;	
+}
 
 
  	.section2{
@@ -150,7 +168,7 @@
 
     & .in-sec2{
 	width: 100%;
-	height: auto;position: relative;top: -100px;display: flex;flex-direction: column;grid-gap: 40px;margin-bottom: -100px;
+	height: auto;position: relative;display: flex;flex-direction: column;grid-gap: 40px;
 
 
 		  & .box1{
@@ -261,8 +279,9 @@ margin: auto;
 	background-image:url(../../../images/exercise.png);
 	width: 280px;margin: auto;
 	height: 150px;
+
+    background-size:contain;background-repeat:no-repeat;
 	transform: rotateX(10deg) rotateY(-10deg) rotateZ(-5deg);
-background-size:contain;background-repeat:no-repeat;
 
 }
 }
