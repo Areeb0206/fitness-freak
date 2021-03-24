@@ -1,0 +1,206 @@
+
+
+
+
+
+.footer{background-image: linear-gradient(90deg, rgba(3,3,3,0.8238892969297094) 4%, rgba(5,5,5,0.8575027423078606) 100%),url(../../../images/footer.png);
+	background-repeat:no-repeat;
+font-family: 'Poppins';
+	width:100%;
+     	
+     	height: auto;margin-top: 50px;padding:50px;
+
+	   & .in-footer
+	   {
+
+		width: 100%;
+		height: auto;display: flex;flex-direction: column;grid-gap: 50px;
+
+
+		& .footer-heading
+		{
+			width: 50%;
+			margin: auto;
+		display: flex;flex-direction: column;grid-gap:20px;
+
+			& .fh{
+
+				
+			}
+
+			& .footer-img{
+				background-image: url(../../../images/f-logo2.svg);
+				height: 70px;width: 70px;margin: auto;
+				background-size: contain;
+                background-repeat: no-repeat;			
+                  }
+
+
+             & .footer-text
+            {font-size: 30px;color:white;
+letter-spacing: 2px;
+                            display: flex;justify-content: center;text-align:center;
+
+            }     
+
+
+
+		}
+
+		& .footer-links{
+			display: flex;justify-content: center;text-align:center;grid-gap:40px;font-size: 20px;
+
+			& a{
+				text-decoration: none;color: white; 
+			}
+
+			& .home{
+			
+			}
+		}
+
+
+		& .footer-input{display: flex;justify-content: center;text-align:center;
+
+			& .form{border: none;
+			
+
+				& .email{border:none;border-radius: 10px;flex-grow: 3;padding: 10px;background-color:transparent;border:1px solid #fcaa22;width: 600px;
+				}
+
+				& .go{border:none;
+
+					border-radius:50%;flex-grow: 2;position: relative;right: 17px;background-color:transparent;color: white;padding:14px;background-color:#fcaa22;
+
+				}
+			}
+
+		}
+
+		& .copyright{
+			display: flex;justify-content: center;margin-bottom: 0px;color: #fcaa22;		}
+
+
+   }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 425px){
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{background-image: linear-gradient(90deg, rgba(3,3,3,0.8238892969297094) 4%, rgba(5,5,5,0.8575027423078606) 100%),url(../../../images/footer.png);
+	background-repeat:no-repeat;
+
+	width:100%;
+     	
+     	height: auto;margin-top: 50px;padding:0px;
+
+	   & .in-footer
+	   {
+
+		width: 100%;
+		height: auto;display: flex;flex-direction: column;grid-gap: 50px;
+
+
+		& .footer-heading
+		{
+			width: 100%;
+			margin: auto;margin-top: 40px;
+		display: flex;flex-direction: column;grid-gap:20px;font-family: 'Poppins';
+
+			& .fh{
+
+				
+			}
+
+			& .footer-img{
+				background-image: url(../../../images/f-logo2.svg);
+				height: 70px;width: 70px;margin: auto;
+				background-size: contain;
+                background-repeat: no-repeat;			
+                  }
+
+
+             & .footer-text
+            {font-size: 25px;color:white;letter-spacing: 2px;
+
+                            display: flex;justify-content: center;text-align:center;
+
+            }     
+
+
+
+		}
+
+		& .footer-links{
+			display: flex;justify-content: center;text-align:center;grid-gap:15px;font-size: 15px;font-family: 'Poppins';
+
+			& a{
+				text-decoration: none;color: white; 
+			}
+
+			& .home{
+			
+			}
+		}
+
+
+		& .footer-input{display: flex;justify-content: center;text-align:center;
+
+			& .form{border: none;
+			
+
+				& .email{border:none;border-radius: 10px;padding: 7px;background-color:transparent;border:1px solid #fcaa22;width: 250px;
+				}
+
+				& .go{border:none;
+
+					border-radius:50%;flex-grow: 2;position: relative;right: 17px;background-color:transparent;color: white;padding:10px;background-color:#fcaa22;
+
+				}
+			}
+
+		}
+
+		& .copyright{font-size: 9px;word-spacing: 3px;font-family: 'Poppins';
+			display: flex;justify-content: center;margin-bottom: 10px;color: #fcaa22;		}
+
+
+   }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+}

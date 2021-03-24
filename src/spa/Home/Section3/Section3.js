@@ -8,6 +8,7 @@ render()
 {
 return(
 <div className="sec3">
+
   <div className="section3">
 
      <div className="in-sec3">
