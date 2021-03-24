@@ -38,9 +38,9 @@ function Navbr() {
                      <li><Link to="/"><p>Home</p></Link></li>
                      <li><Link to="/Appointment"><p>Appointment</p></Link></li>
 
-                     <li><Link to="/price-table"><p>Plans</p></Link></li>
+                     <li><Link to="/Plans"><p>Plans</p></Link></li>
 
-                     <li><Link to="/bmi"><p>BMI</p></Link></li>
+                     <li><Link to="/Bmi"><p>BMI</p></Link></li>
                      <li><Link to="/Contact"><p>Contact</p></Link></li>
                     
                   </ul>

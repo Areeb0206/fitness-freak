@@ -1,10 +1,12 @@
 .sec3{
-	width: 100%;height: auto;position: relative;top: -150px;margin-bottom: -170px;
+	width: 100%;height: auto;position: relative;top: -150px;margin-bottom: -150px;
 }
 
 
 .section3{
-width: 100%;
+width: 100%;background-image: linear-gradient(90deg, rgba(3,3,3,0.8238892969297094) 4%, rgba(5,5,5,0.8575027423078606) 100%),url(../../../images/bg.jpg);
+background-attachment: fixed;
+background-size:cover;
 height:auto;
 clip-path: polygon(0 13%, 100% 0, 100% 100%, 0% 100%);background-color:black;
 
@@ -223,7 +225,9 @@ clip-path: polygon(0 13%, 100% 0, 100% 100%, 0% 100%);background-color:black;
 
 
 .section3{
-width: 100%;
+width: 100%;background-image: linear-gradient(90deg, rgba(3,3,3,0.8238892969297094) 4%, rgba(5,5,5,0.8575027423078606) 100%),url(../../../images/bg.jpg);
+background-attachment: fixed;background-position:right;
+background-size:cover;
 height:auto;
  clip-path: polygon(1% 4%, 100% 0, 100% 100%, 0 100%);background-color:black;
 
@@ -276,7 +280,7 @@ height:auto;
 
                & .right{color: white;
                	width: 90%;height: auto;margin: auto;margin-top: 0;
-             padding: 0px;display: flex;flex-direction: column;grid-gap:20px;
+             padding: 0px;display: flex;flex-direction: column;grid-gap:20px;margin-bottom: 40px;
                       
                       & .right-one{display: flex;flex-direction: row;grid-gap: 30px;
 

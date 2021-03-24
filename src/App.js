@@ -2,7 +2,7 @@
 import './App.scss';
 import { Nav } from './layout';
 
-import {Home ,Appointment,Contact} from './spa';
+import {Home ,Appointment,Contact,Plans,Bmi} from './spa';
 
 import {
   BrowserRouter as Router,
@@ -28,7 +28,13 @@ function App() {
           <Route path="/contact">
             <Contact />
           </Route>
-           <Route path="/">
+           <Route path="/plans">
+            <Plans />
+          </Route>
+               <Route path="/bmi">
+            <Bmi />
+          </Route>
+               <Route path="/">
             <Home />
           </Route>
 
