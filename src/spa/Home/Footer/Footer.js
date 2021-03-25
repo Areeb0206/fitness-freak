@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import './Footer.scss';
+import { Link } from 'react-router-dom';
+
 
 
 export default class Footer extends Component {
@@ -16,8 +18,12 @@ render()
 
                  <div className="footer-heading">
 
+                    <div className="fh">
+
                       <div className="footer-img"></div>
                       <div className="footer-text">Fitness-Freak</div>
+
+                    </div>
 
 
                  </div>
@@ -27,16 +33,16 @@ render()
                  <div className="footer-links">
 
 
-                    <div className="Home"><a href="Home"> Home</a></div>
+                    <div className="Home"><Link to="/Header"><p>Home</p></Link></div>
 
 
-                    <div className="Plans"><a href="Plans"> Plans</a></div>
+                    <div className="Plans"><Link to="/Plans"><p>Plans</p></Link></div>
 
 
-                    <div className="Contact"><a href="Contact"> Contact</a></div>
+                    <div className="Contact"><Link to="/Contact"><p>Contact</p></Link></div>
 
 
-                    <div className="Appointment"><a href="Appointment"> Appointment</a></div>
+                    <div className="Appointment"><Link to="/Appointment"><p>Appointment</p></Link></div>
 
 
                  </div>
