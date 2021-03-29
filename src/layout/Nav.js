@@ -36,12 +36,12 @@ function Navbr() {
               <Form inline className="right-nav" >
                   <ul>
                      <li><Link to="/"><p>Home</p></Link></li>
-                     <li><Link to="/Appointment"><p>Appointment</p></Link></li>
+                     <li><a href="https://areeb0206.github.io/areebportfolio/" target="blank"><p>Portfolio</p></a></li>
 
                      <li><Link to="/Plans"><p>Plans</p></Link></li>
 
                      <li><Link to="/Bmi"><p>BMI</p></Link></li>
-                     <li><Link to="/Contact"><p>Contact</p></Link></li>
+                  {/* <li><Link to="/Contact"><p>Contact</p></Link></li>*/}
                     
                   </ul>
               </Form>
