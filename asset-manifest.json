@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/fitness-freak/static/css/main.826c7208.chunk.css",
+    "main.css": "/fitness-freak/static/css/main.ad00a818.chunk.css",
     "main.js": "/fitness-freak/static/js/main.27e1b0df.chunk.js",
     "main.js.map": "/fitness-freak/static/js/main.27e1b0df.chunk.js.map",
     "runtime-main.js": "/fitness-freak/static/js/runtime-main.632835f1.js",
@@ -12,7 +12,7 @@
     "static/js/3.cbc960f3.chunk.js.map": "/fitness-freak/static/js/3.cbc960f3.chunk.js.map",
     "index.html": "/fitness-freak/index.html",
     "static/css/2.a5efa418.chunk.css.map": "/fitness-freak/static/css/2.a5efa418.chunk.css.map",
-    "static/css/main.826c7208.chunk.css.map": "/fitness-freak/static/css/main.826c7208.chunk.css.map",
+    "static/css/main.ad00a818.chunk.css.map": "/fitness-freak/static/css/main.ad00a818.chunk.css.map",
     "static/js/2.6af8adc5.chunk.js.LICENSE.txt": "/fitness-freak/static/js/2.6af8adc5.chunk.js.LICENSE.txt",
     "static/media/Section3.scss": "/fitness-freak/static/media/yoga.9dcdada5.svg",
     "static/media/Section2.scss": "/fitness-freak/static/media/yogs.6505c5e1.svg",
@@ -25,7 +25,7 @@
     "static/js/runtime-main.632835f1.js",
     "static/css/2.a5efa418.chunk.css",
     "static/js/2.6af8adc5.chunk.js",
-    "static/css/main.826c7208.chunk.css",
+    "static/css/main.ad00a818.chunk.css",
     "static/js/main.27e1b0df.chunk.js"
   ]
 }
