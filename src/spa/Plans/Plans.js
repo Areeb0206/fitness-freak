@@ -18,7 +18,7 @@ return(
                    <div className="all-plans">
 
 
-			                    <div className="left-plan">
+			                    <div className="left-plan"><span className="enroll-now" enroll="Enroll now"></span>
 
 			                       <div className="left-heading">
 
@@ -49,10 +49,12 @@ return(
 			                       </div>
 
 
+
+
 			                   </div>
 
 
-			                     <div className="mid-plan">
+			                     <div className="mid-plan"><span className="enroll-now" enroll="Enroll now"></span>
 
 
 			                            <div className="mid-heading">  <h1>Class Drop-in</h1>
@@ -71,7 +73,7 @@ return(
 			                     </div>
 
 
-			                    <div className="right-plan">
+			                    <div className="right-plan"><span className="enroll-now" enroll="Enroll now"></span>
 
 
 			                        <div className="right-heading">

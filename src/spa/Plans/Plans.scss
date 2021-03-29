@@ -24,12 +24,12 @@
 
            & .left-plan{
               	width:30%;
-              	height: 67.7vh;z-index: 1;display: flex;flex-direction: column;grid-gap:50px;
+              	height: 67.7vh;z-index: 1;display: flex;flex-direction: column;grid-gap:30px;
               	background-color: #fcaa22;position: relative; clip-path: polygon(0 9%, 100% 0, 100% 91%, 0% 100%);
               
 
 
-              	& .left-heading{margin-top: 60px;display: flex;flex-direction: column;grid-gap:10px;
+              	& .left-heading{margin-top: 60px;display: flex;flex-direction: column;grid-gap:5px;
               			z-index: 1;text-align: center;
 
               			& h1{
@@ -39,17 +39,28 @@
               				font-size: 29px;
               			}
               			& h3{
-              				font-size: 18px;
+              				font-size: 18px;position:relative;
               			}
+              		
+
               			
               		}
 
-              		& .left-bottom{display: flex;flex-direction: column;grid-gap:10px;
+              		& .left-bottom{display: flex;flex-direction: column;grid-gap:15px;
 
               			& h1{letter-spacing: 1px;word-spacing: 2px;
-              				font-size: 16px;text-align: center;              			}
+              				font-size: 15px;text-align: center;              			}
               		}
-                
+
+              		& .btn{
+
+              			& button{
+              			padding: 5px 19px;background-color:transparent;border: none;outline: none;color: white;
+              			font-weight: 900;font-size: 15px;letter-spacing: 2px;
+              			border:1px solid #fcaa22;
+              		}
+                   
+                   }                
                 }
 
               	& .left-plan::after{z-index: -1;
@@ -62,10 +73,38 @@
 
               		
               	}
+                
+                & .enroll-now{cursor: pointer;
+                }
 
 
 
-              	  & .right-plan{display: flex;flex-direction: column;grid-gap:40px;
+              	& .enroll-now::before{
+              		z-index: 1;background-color:white;padding:15px;
+              		content: attr(enroll);font-size: 17px;color: black;font-weight: 900;letter-spacing: 2px;
+
+              		position:absolute;text-align: right;
+              	
+
+         clip-path: ellipse(35% 40% at 89% 0%);
+transition: all 1s ease;
+       
+            height: 150px;width: 350px;top: 0;right: 0;
+
+
+              		
+              	}     & .enroll-now:hover::before{cursor: pointer;background-color:black;color: white;transition: all 1s ease;
+                }
+
+
+
+
+
+
+
+
+
+              	  & .right-plan{display: flex;flex-direction: column;grid-gap:30px;
               	width:30%;
               	height: 67.7vh;z-index: 1;
               	background-color: #fcaa22;position: relative; clip-path: polygon(0 9%, 100% 0, 100% 91%, 0% 100%);
@@ -85,10 +124,10 @@
               			
               		}
 
-              		& .right-bottom{display: flex;flex-direction: column;grid-gap:10px;
+              		& .right-bottom{display: flex;flex-direction: column;grid-gap:15px;
 
               			& h1{
-              				font-size: 16px;text-align: center;
+              				font-size: 15px;text-align: center;letter-spacing: 1px;word-spacing: 2px;
               			}
               		}
                 
@@ -102,7 +141,11 @@
               	}
 
 
-              & .mid-plan{display: flex;flex-direction: column;grid-gap:40px;
+
+
+
+
+              & .mid-plan{display: flex;flex-direction: column;grid-gap:30px;
 		              	width:30%;
 		              	height: 67.7vh;z-index: 1;
 		              	background-color: #fcaa22;position: relative; clip-path: polygon(0 9%, 100% 0, 100% 91%, 0% 100%);
@@ -122,10 +165,10 @@
               			
               		}
 
-              		& .mid-bottom{display: flex;flex-direction: column;grid-gap:10px;
+              		& .mid-bottom{display: flex;flex-direction: column;grid-gap:15px;
 
-              			& h1{
-              				font-size: 16px;text-align: center;
+              			& h1{letter-spacing: 1px;word-spacing: 2px;
+              				font-size: 15px;text-align: center;
               			}
               		}
                 
@@ -193,13 +236,13 @@
               			z-index: 1;font-size: 30px;text-align: center;
 
               			& h1{
-              				font-size: 17px;letter-spacing: 2px;
+              				font-size: 15px;letter-spacing: 2px;
               			}
               			& h2{
-              				font-size: 30px;color: #fcaa22;
+              				font-size: 25px;color: #fcaa22;
               			}
               			& h3{
-              				font-size: 15px;
+              				font-size: 13px;
               			}
               			
               		}
@@ -223,21 +266,55 @@
 
               		
               	}
+
+
+              	     & .enroll-now{cursor: pointer;
+                }
+
+
+
+              	& .enroll-now::before{
+              		z-index: 1;background-color:white;padding:8px;
+              		content: attr(enroll);font-size: 13px;color: black;font-weight: 900;letter-spacing: 1px;
+
+              		position:absolute;text-align: right;
+              	
+
+         clip-path: ellipse(35% 40% at 89% 0%);
+transition: all 1s ease;
+       
+            height: 100px;width: 230px;top: 0;right: 0;
+
+
+              		
+              	}     & .enroll-now:hover::before{cursor: pointer;background-color:black;color: white;transition: all 1s ease;
+                }
+
+
+
+
+
+
+
+
+
+
+
+
               & .right-plan{	width:100%;color: white;
               	height: 75.7vh;z-index: 1;display: flex;flex-direction: column;grid-gap:20px;
               	background-color: #fcaa22;position: relative; clip-path: polygon(0 9%, 100% 0, 100% 91%, 0% 100%);
 		                
                	& .right-heading{margin-top: 60px;
               			z-index: 1;font-size: 30px;text-align: center;
-
-              			& h1{
-              				font-size: 17px;
+	& h1{
+              				font-size: 15px;letter-spacing: 2px;
               			}
               			& h2{
-              				font-size: 30px;
+              				font-size: 25px;color: #fcaa22;
               			}
               			& h3{
-              				font-size: 15px;
+              				font-size: 13px;
               			}
               			
               		}
@@ -245,7 +322,7 @@
               		& .right-bottom{display: flex;flex-direction: column;grid-gap:10px;
 
               			& h1{
-              					font-size: 14px;text-align: center;
+              					font-size: 12px;text-align: center;
               			}
               		}
                 
@@ -270,13 +347,13 @@
               			z-index: 1;font-size: 30px;text-align: center;
 
               			& h1{
-              				font-size: 17px;
+              				font-size: 15px;letter-spacing: 2px;
               			}
               			& h2{
-              				font-size: 30px;
+              				font-size: 25px;color: #fcaa22;
               			}
               			& h3{
-              				font-size: 15px;
+              				font-size: 13px;
               			}
               			
               		}
@@ -284,7 +361,7 @@
               		& .mid-bottom{display: flex;flex-direction: column;grid-gap:10px;
 
               			& h1{
-              					font-size: 14px;text-align: center;
+              					font-size: 12px;text-align: center;
               			}
               		}
                 
